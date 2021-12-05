@@ -1,0 +1,573 @@
+<!doctype html>
+<html>
+<head>
+	<title>KAI | World Class Performer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>	
+		
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			shadow: 2px 2px blur;
+			background-color: white;
+		}
+		
+		li{
+			float: left;
+		}
+		
+		.logo{
+			font-family: Copperplate Gothic Bold;
+			font-size: 42px;
+			padding: 35px 70px 13px 5px;
+			text-align: center;
+			float: left;
+		}
+		
+		li a{
+			  display: block;
+			  color: black;
+			  font-family: bankgothic md bt;
+			  padding: 48px 26px;
+			  text-align: center;
+			  font-size: 25px;
+			  text-decoration: none;
+		}
+		
+		.icon{
+			  display: block;
+			  padding: 48px 7px;
+			  text-decoration: none;
+		}
+		
+		li a:hover{
+			color:  #ec7063;
+			cursor: pointer;
+		}
+		
+		img{
+			float: left;
+			clear: right;
+			padding-top: 20px;
+			horizonal-align: center;
+		}
+		
+		.nav{
+			  justify-content: center;
+			  display: flex;
+		}
+		
+		.homejpg{
+			padding: 100px 100px 130px 0px;
+			display: block;
+			float: right;
+		}
+		
+		.home{
+			background-color: #fadbd8;
+			margin-left: 100px;
+			margin-right: 100px;
+			overflow: hidden;
+		}
+		
+		h1{
+			position: absolute;
+			font-size: 95px;
+			font-family: Arial Black;
+			top: 260px;
+			left: 285px;
+			-webkit-text-stroke: 6px #cb4335;
+			-webkit-text-fill-color: white;
+		}
+		
+		h2{
+			position: absolute;
+			font-size: 60px;
+			top: 405px;
+			left: 285px;
+			-webkit-text-stroke: 3px #cb4335;
+			-webkit-text-fill-color: white;
+		}
+		
+		.title1{
+			position: absolute;
+			font-size: 30px;
+			top: 600px;
+			left: 285px;
+			color: #cb4335;
+			font-family: Freehand591 BT;
+		}
+		
+		.title2{
+			position: absolute;
+			font-size: 30px;
+			color: #cb4335;
+			top: 650px;
+			left: 285px;
+			font-family: Freehand591 BT;
+		}
+		
+		.title3{
+			position: absolute;
+			font-size: 30px;
+			color: #cb4335;
+			top: 700px;
+			left: 285px;
+			font-family: Freehand591 BT;
+		}
+		
+		
+		
+		.solo{
+			background-color: #fadbd8;
+			margin-left: 100px;
+			margin-right: 100px;
+			overflow: hidden;
+		}
+		
+		.mmmh{
+			background-color:  #cb4335;
+			margin-left: 300px;
+			margin-right: 300px;
+			height: 225px;
+			border-radius: 5px;
+		}
+		
+		.peaches{
+			background-color:   #cb4335;
+			margin: 50px 300px 70px 300px;
+			height: 225px;
+			border-radius: 5px;
+		}
+		
+		.mmmhimg{
+			float: left;
+			padding: 13px 15px;
+		}
+		
+		.intro{
+			font-family: Arial Narrow;
+			font-size: 20px;
+			color:  #fadbd8;
+			line-height: 40px;
+			font-weight: bold;
+			padding: 20px 15px 15px 0px;
+		}
+		
+		.songtitle{
+			font-family: Copperplate Gothic Bold;
+			font-size: 30px;
+			color:   #fadbd8;
+			padding: 0px 15px 15px 0px;
+		}
+		
+		.solohead1{
+			font-family: Copperplate Gothic Bold;
+			font-size: 32px;
+			color: #cb4335;
+			margin-top: 100px;
+			letter-spacing: 5px;
+		}
+		
+		.solohead2{
+			font-family: Franklin Gothic Demi Cond;
+			font-size: 65px;
+			color: #cb4335;
+			margin-left: 200px;
+			line-height: 80px;
+		}
+		
+		.solobt1{
+			padding: 9px  38px;
+			background-color:  #fadbd8;
+			color: #cb4335;
+			font-size: 22px;
+			font-weight: bold;
+			font-family: Franklin Gothic Demi Cond;
+			border-radius: 5px 15px;
+		}
+		
+		.solobt2{
+			padding: 9px  38px;
+			background-color:  #fadbd8;
+			color: #cb4335;
+			font-size: 22px;
+			font-weight: bold;
+			font-family: Franklin Gothic Demi Cond;
+			border-radius: 15px 5px;
+		}
+		
+		.song{
+			text-decoration: none;
+			color: #cb4335;
+		}
+		
+		
+		fieldset{
+			width: 350px;
+			height: 440px;
+			margin-left: 140px;
+			border: 2px groove  #f1948a;
+			border-radius: 5px;
+			float: left;
+		}
+		
+		.kaitracklist{
+			text-align: center;
+			color: #cb4335;
+			margin-top: 15px;
+			margin-bottom: 20px;
+			font-family: bankgothic md bt;
+			font-size: 40px;
+		}
+		
+		.kaibside{
+			display: inline;
+			padding: 7px 100px 12px 20px;
+			font-family: Freehand591 BT;
+			font-size: 27px;
+		}
+		
+		.kaibside:hover{
+			color:  #e74c3c;
+			cursor: pointer;
+		}
+		
+		.tracklist{
+			margin-bottom: 700px;
+		}
+		
+		legend{
+			font-family: bankgothic md bt;
+			font-size: 25px;
+			letter-spacing: 8px;
+			color: #cb4335;
+		}
+		
+		
+		
+		.about{
+			background-color: #cb4335;
+			margin-left: 100px;
+			margin-right: 100px;
+			overflow: hidden;
+		}
+		
+		.aboutpara{
+			font-family: Microsoft JhengHei;
+			font-size: 16px;
+			color: #fadbd8;
+			width: 450px;
+			float: right;
+			margin: 140px 80px 50px 0px;
+		}
+		
+		.aboutjpg{
+			float: left;
+			padding: 165px 50px 150px 50px;
+			clear: left;
+		}
+		
+		.abouthead{
+			font-family: Segoe UI Black;
+			color: white;
+			font-size: 90px;
+			font-weight: bold;
+			line-height: 70px;
+		}
+		
+		.wholepara{
+			line-height: 35px;
+		}
+		
+		.abouth{
+			font-family: bankgothic md bt;
+			font-size: 40px;
+			letter-spacing: 7px;
+		}
+		
+		.paracss{
+			font-weight: bold;
+			color:    #f4d03f ;
+		}
+		
+		
+		
+		
+		
+		.gallery{
+			background-color:  #b03a2e ;
+			margin-left: 100px;
+			margin-right: 100px;
+			overflow: hidden;
+		}
+		
+		.galleryname{
+			font-family: bankgothic md bt;
+			font-size: 60px;		
+			color: #f4d03f;
+			letter-spacing: 8px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		
+		.gallerytitle{
+			font-family: Segoe UI Black;
+			color: #fadbd8;
+			font-size: 80px;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 0px;
+			margin-bottom: 60px;
+		}
+		
+		.gallery-para{
+			font-family: Microsoft JhengHei;
+			font-size: 18px;
+			color:   #fadbd8 ;
+			text-align: center;
+			line-height: 28px;
+			margin: 0px 150px 40px 150px;
+		}
+		
+		.gallery-para-span{
+			font-weight: bold;
+			font-style: italic;
+			color: white;
+		}
+		
+		.gallery-container{
+			margin-top: 100px;
+			margin-left: 65px;
+			margin-bottom: 1100px;
+		}
+		
+		.gucci-jpg{
+			padding: 5px;
+		}
+
+		.instagram, .twitter{
+			background-color:  #fadbd8 ;
+			margin-left: 100px;
+			margin-right: 100px;
+			overflow: hidden;
+		}
+		
+		.youtube, .facebook{
+			background-color:  #f1948a ;
+			margin-left: 100px;
+			margin-right: 100px;
+			overflow: hidden;
+		}
+		
+		.insta-head1{
+			font-family: Segoe UI Black;
+			font-size: 45px;		
+			color: red;
+			letter-spacing: 8px;
+			text-align: center;
+			margin-bottom: 0px;
+			margin-top: 100px
+		}
+		
+		.insta-head2{
+			margin-top: 40px; 	
+			font-family: bankgothic md bt;
+			font-size: 80px;
+			text-align: center;
+		}
+		
+		.insta-head-span{
+			font-family: Franklin Gothic Demi Cond;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		
+	</script>
+
+	<div class= "nav">
+		<img src= "kailogo2.jpg" width= "67" height= "67"><a class= "logo">KAI</a>	
+		
+		<ul>
+			<li><a href= "#home">Home</a></li>
+			<li><a href= "#solo">Solo</a></li>
+			<li><a href= "#about">About</a></li>
+			<li><a href= "#gallery">Gallery</a></li>
+			<li><a href= "#contact">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div class= "home" id= "home">
+		<img src= "kaiblack.jpg" class= "homejpg" width= "500" height= "650">
+		<h1>EXO KAI</h1>
+		<h2>김종인</h2>
+		<h3 class= "title1">World Class Performer</h3>
+		<h3 class= "title2">Idol of Idols</h3>
+		<h3 class= "title3">The Dancing King</h3>
+	</div>
+	
+	
+	<div class= "solo" id= "solo">
+		<p class= "solohead2"><span class= "solohead1">Solo Albums</span></br>
+		Stream MMMH and PEACHES</span></p>
+		
+		<div class= "mmmh">
+			<img src= "kaimmmh.jpg" width= "150" height= "200" class= "mmmhimg">
+			<p class= "intro">Listen to Kai's First EP KAI ( 开 )</br>
+			<span class= "songtitle">MMMH</span></p>
+			<button type= "button" class= "solobt1"><a href= "https://www.youtube.com/watch?v=Fc-fa6cAe2c" class= "song" target= "_blank">Youtube</a></button>
+			<button type= "button" class= "solobt2">Spotify</button>
+		</div>
+		
+		<div class= "peaches">
+			<img src= "kaipeaches.jpg" width= "150" height= "200" class= "mmmhimg">
+			<p class= "intro">Listen to Kai's Second EP Peaches</br>
+			<span class= "songtitle">PEACHES</span></p>
+			<button type= "button" class= "solobt1"><a href= "https://www.youtube.com/watch?v=GUdnTGnm6Yk" class= "song" target= "_blank">Youtube</a></button>
+			<button type= "button" class= "solobt2">Spotify</button>
+		</div>
+		
+		<div class= "tracklist">
+		<div class= "kaitracks">
+		<fieldset>
+			<legend>Tracklist</legend>
+			<h3 class= "kaitracklist">Kai ( 开 )</h3>
+			
+				<ol>
+					<li class= "kaibside">
+						Mmmh (Title)
+					</li>
+					
+					<li class= "kaibside">
+						Nothing on Me
+					</li>
+					
+					<li class= "kaibside">
+						Amnesia
+					</li>
+					
+					<li class= "kaibside">
+						Ride or Die
+					</li>
+					
+					<li class= "kaibside">
+						Reason
+					</li>
+					<br>
+					<li class= "kaibside">
+						Hello Stranger
+					</li>	
+				</ol>
+			</fieldset>
+		</div>
+		
+		<div class= "kaitracks">	
+		<fieldset>
+			<legend>Tracklist</legend>
+			<h3 class= "kaitracklist">Peaches</h3>
+				<ol>
+					<li class= "kaibside">
+						Peaches (Title)
+					</li>
+					
+					<li class= "kaibside">
+						Vanilla
+					</li>
+					
+					<li class= "kaibside">
+						Domino
+					</li>
+					
+					<li class= "kaibside">
+						Come in
+					</li>
+					
+					<li class= "kaibside">   
+						To be Honest
+					</li>
+					<br>
+					<li class= "kaibside">
+						Blue
+					</li>	
+				</ol>
+		</fieldset>
+		</div>
+		</div>
+	</div>
+	
+	<div class= "about" id= "about">
+		<img src= "kaiblack2.jpg" width= "500" height= "650" class= "aboutjpg">
+		
+		<p class= "aboutpara">
+		<span class= "abouth">About</span><br><br>
+		<span class= "abouthead">How it all <br> started.</span><br><br><br><br>
+			<span class= "wholepara">
+			&emsp;&emsp;
+			Kim Jong-in (Korean: 김종인; born January 14, 1994), 
+			better known as Kai (Korean: 카이), is a South Korean singer, model, actor, and dancer. 
+			He is a member of the South Korean-Chinese boy group <span class= "paracss">EXO</span>, its sub unit <span class= "paracss">EXO-K</span>. 
+			He debuted as a soloist in November 2020 with the release of his extended-play, <span class= "paracss">Kai (开)</span>. Kai made 
+			his solo comeback with his second EP <span class= "paracss">Peaches</span> on November 30, 2021.
+			<br>
+
+			&emsp;&emsp;
+			Apart from his musical career, Kai has also starred in various television dramas 
+			such as Choco Bank (2016), Andante (2017), and Spring Has Come (2018). <br>
+			&emsp;&emsp;
+			Kai is widely considered to be one of <span class= "paracss">the best dancers</span> of South Korea and K-pop.			
+			</span>
+		</p>
+	</div>
+	
+	<div class= "gallery" id= "gallery">
+		<h3 class= "galleryname">Gucci</h3>
+		<h3 class= "gallerytitle">Global Ambassador</h3>
+		
+		<p class= "gallery-para">
+			&emsp;&emsp;
+			The EXO singer and soloist, who was named one of GQ's Best-Dressed Men of 2020, Kai had the honors of becoming <span class= "gallery-para-span">the first ever South Korean to hold the title of
+			global ambassador</span> for luxury brand Gucci.<br><br>
+						
+			&emsp;&emsp;
+			<span class= "gallery-para-span">The Kai x Gucci capsule collection</span> launched 17 April 2021. 
+			It is designed by Alessandro Michele, the creative director for Gucci, and one that's inspired by Kai himself. 
+			This marks the first time that a Gucci capsule collection has been specifically designed around a Korean celebrity<br>
+		</p>
+		
+		<div class="gallery-container">
+			<img src= "gucci3.jpg" width= "320px" class= "gucci-jpg">
+			<img src= "gucci4.jpg" width= "320px" class= "gucci-jpg">
+			<img src= "gucci6.jpg" width= "320px" class= "gucci-jpg">
+			<img src= "gucci5.jpg" width= "320px" class= "gucci-jpg">
+			<img src= "gucci1.jpg" width= "320px" class= "gucci-jpg">
+			<img src= "gucci2.jpg" width= "320px" class= "gucci-jpg">
+		</div>
+	</div>
+	
+	<div class= "contact" id= "contact">
+		<div class= "instagram">
+			<h3 class= "insta-head1">Instagram</h3>
+			<h3 class= "insta-head2">Follow <span class= "insta-head-span">@zkdlin</span></h3>		
+		</div>
+		
+		<div class= "youtube">
+			<h3 class= "insta-head1">Youtube</h3>
+			<h3 class= "insta-head2">Follow <span class= "insta-head-span">@카이 KAI</span></h3>		
+		</div>
+		
+		<div class= "twitter">
+			<h3 class= "insta-head1">Twitter</h3>
+			<h3 class= "insta-head2">Follow <span class= "insta-head-span">@weareoneEXO</span></h3>		
+		</div>
+		
+		<div class= "facebook">
+			<h3 class= "insta-head1">Facebook</h3>
+			<h3 class= "insta-head2">Follow <span class= "insta-head-span">@EXO</span></h3>		
+		</div>
+</body>
+</html>
